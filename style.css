@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(77, 74, 74);
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(113, 58, 58, 0.75),
+    rgba(18, 15, 15, 0.75)), url(./images/backgroundimage.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: -40px 0px 0px 0px;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    margin: -10px auto auto 0px;
+    background: linear-gradient(rgb(106 95 85 / 41%), rgb(143 100 100 / 70%));
+    
+}
+.navbar{
+    width: 85%;
+    margin: 20px;
+    padding: 35px 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 55px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#bb7474f7;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: rgb(165, 180, 192);
+}
+button{
+    width: 20%;
+    padding: 25px 0;
+    text-align: center;
+    margin: 5px 510px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: rgba(138, 126, 84, 0.73);
+    color: #ffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: large;
+    text-transform: uppercase;
+}
+button:hover{
+    background: linear-gradient(rgba(199, 145, 94, 0.41), rgb(143 100 100 / 70%));
+}
+.primary{
+    float: left;
+    margin-top: 60px;
+    font-size: 70%;
+    border: 1px solid black;
+    margin-left: 100px;
+    background-color: rgb(171, 92, 105);
+    padding: 20px 140px 50px 40px;
+}
+.Served{
+    font-size: 200%;
+}
+.child{
+    font-size: 150%;
+    margin-top: 10px;
+}
+.program{
+    font-size: 70%;
+}
+.programs p{
+    background-color: white;
+    padding: 5px 0px 5px 0px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.seconds h4{
+    font-family: monospace;
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: 100;
+}
+h4{
+    text-align: center;
+    
+}
+.content2 p{
+    text-align: center;
+
+}
+.paragraph{
+    margin-top: 5px;
+}
+.learn{
+    background-color: yellow;
+    width: 80px;
+    margin-left: 858px;
+}
+.icons{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.icons-img1{
+    margin-left: 40px;
+}
+.icons-img2{
+    margin-left: 350px;
+}
+.icons-img3{
+    margin-left: 350px;
+
+}
+.first{
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(20, 20, 75);
+    padding: 10px;
+    margin-top: 40px;
+}
+.heading2{
+    color:yellow;
+}
+    
+
+
+
+
+
